@@ -15,7 +15,171 @@
 header{
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: 80px;
+    background-color: aliceblue;
+
+}
+
+#img-background{
+
+
+    width: 1850px;
+
+}
+
+#text-logotype{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: relative;
+
+}
+
+.link-logotype{
+
+    text-decoration: none;
+    color:black;
+
+}
+
+.link-logotype:hover{
+
+    transition: 0.3s ease;
+    color: rgb(175, 110, 26);
+}
+
+.hamburger{
+
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    right:400px;
+
+}
+
+.camada{
+
+    width: 28px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: black;
+
+}
+
+.menu{
+
+    width: 200px;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    transition: 0.3s ease;
+    left: -200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
+
+}
+
+.menu.expandir-menu{
+
+    left: 0;
+
+}
+
+.menu a{
+
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.menu a:hover{
+
+    transition: 0.3s ease;
+    color: rgb(168, 124, 66);
+
+}
+
+.menu li{
+
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.craft{
+
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:250px;
+    left: 320px;
+    color:white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.517);
+
+}
+
+#title-unique-craft-cafe-in-nyc{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 80px;
+    right:250px;
+    line-height: 4.1rem;
+
+}
+
+#paragraph{
+
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:270px;
+    left: 40px;
+    line-height: 40px;
+
+}
+
+#text-view-menu{
+
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-weight: 100;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.517);
+    padding: 20px;
+    border-radius: 100px;
+    border: solid white 1px;
+    width: 180px;
+    text-align: center;
+    top:450px;
+    left: 50px;
+
+}
+
+.link-view-menu{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.link-view-menu:hover{
+
+    transition: 0.3s ease;
+    color: rgb(225, 171, 100);
 
 }
