@@ -17,7 +17,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    position: relative;
+    max-width: 1850px;
     height: 80px;
     background-color: aliceblue;
 
@@ -67,6 +68,12 @@ header{
     height: 3px;
     margin: 3px 0;
     background-color: black;
+
+}
+
+.camada:hover{
+
+    color:red;
 
 }
 
@@ -182,3 +189,4 @@ header{
     color: rgb(225, 171, 100);
 
 }
+
