@@ -341,6 +341,25 @@ header{
 
 .img-section-bottom{
 
-    width: 1300px;
+    width: 1850px;
+
+}
+
+.div-column{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.Primeira-sub-div-column{
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.502);
+    border-radius: 20px;
 
 }
